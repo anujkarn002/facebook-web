@@ -1,9 +1,9 @@
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
-import { AppProps } from 'next/app';
+import type { AppProps } from 'next/app'
 import Head from 'next/head';
-import * as React from 'react';
+import React from 'react';
 import '../../styles/global.scss';
 
 import createEmotionCache from '@/utils/createEmotionCache';
